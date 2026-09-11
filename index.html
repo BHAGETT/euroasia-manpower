@@ -50,7 +50,7 @@
         </div>
     </section>
 
-    <!-- Stats / Highlights -->
+    <!-- Stats / Highlights with Video Demo Proofs -->
     <section class="py-12 bg-white shadow-sm">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div class="p-4">
@@ -58,11 +58,18 @@
                 <h3 class="text-xl font-bold">100% Vetted Passports</h3>
                 <p class="text-gray-500 text-sm mt-1">Ready for active EU work permit allocations and quota processing.</p>
             </div>
-            <div class="p-4">
-                <i class="fas fa-video text-3xl text-blue-600 mb-2"></i>
-                <h3 class="text-xl font-bold">Practical Demo Proofs</h3>
-                <p class="text-gray-500 text-sm mt-1">Video proofs of physical fitness and skill sets available on request.</p>
+            
+            <!-- Highlight with Embedded Demo Video Loop -->
+            <div class="p-4 bg-blue-50/50 rounded-2xl border border-blue-100">
+                <div class="w-full h-32 mb-3 rounded-xl overflow-hidden shadow-inner bg-slate-900 relative">
+                    <video autoplay muted loop playsinline class="w-full h-full object-cover">
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-workers-on-a-construction-site-42998-large.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Practical Demo Proofs</h3>
+                <p class="text-gray-600 text-sm mt-1">Video proofs of physical fitness and skill sets available on request.</p>
             </div>
+
             <div class="p-4">
                 <i class="fas fa-truck-loading text-3xl text-blue-600 mb-2"></i>
                 <h3 class="text-xl font-bold">Rapid Deployment</h3>
@@ -71,16 +78,18 @@
         </div>
     </section>
 
-    <!-- Categories with Professional Image Cards -->
+    <!-- Categories with Professional Video / Image Cards -->
     <section id="services" class="py-16 px-6 max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-center text-slate-900">Workforce Categories Available</h2>
         <p class="text-center text-gray-500 mt-2 mb-12">Deployment-ready candidates with verified documentation.</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Category 1 -->
+            <!-- Category 1: Construction / General Helper -->
             <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
-                <div class="h-40 bg-slate-200 overflow-hidden relative">
-                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="General Helpers" class="w-full h-full object-cover">
+                <div class="h-40 bg-slate-900 relative">
+                    <video autoplay muted loop playsinline class="w-full h-full object-cover opacity-90">
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-workers-building-a-house-41366-large.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="p-6">
                     <h3 class="font-bold text-lg text-slate-800">General Helpers</h3>
@@ -88,10 +97,12 @@
                 </div>
             </div>
 
-            <!-- Category 2 -->
+            <!-- Category 2: Warehouse Staff -->
             <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
-                <div class="h-40 bg-slate-200 overflow-hidden relative">
-                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Warehouse Staff" class="w-full h-full object-cover">
+                <div class="h-40 bg-slate-900 relative">
+                    <video autoplay muted loop playsinline class="w-full h-full object-cover opacity-90">
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-man-working-in-a-warehouse-42999-large.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="p-6">
                     <h3 class="font-bold text-lg text-slate-800">Warehouse Staff</h3>
@@ -99,7 +110,7 @@
                 </div>
             </div>
 
-            <!-- Category 3 -->
+            <!-- Category 3: Industrial Workers -->
             <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
                 <div class="h-40 bg-slate-200 overflow-hidden relative">
                     <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="Industrial Workers" class="w-full h-full object-cover">
@@ -110,7 +121,7 @@
                 </div>
             </div>
 
-            <!-- Category 4 -->
+            <!-- Category 4: Agriculture & Farm -->
             <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
                 <div class="h-40 bg-slate-200 overflow-hidden relative">
                     <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80" alt="Agriculture & Farm" class="w-full h-full object-cover">
@@ -123,7 +134,7 @@
         </div>
     </section>
 
-    <!-- Built-in Secure CV Upload Section (No External Redirects) -->
+    <!-- Built-in Secure CV Upload Section -->
     <section id="upload-cv" class="py-16 px-6 bg-slate-100 border-t border-gray-200">
         <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-md border border-gray-200 p-8">
             <div class="text-center mb-6">
@@ -133,7 +144,6 @@
             </div>
 
             <form action="https://formsubmit.co/contact@euroasia-manpower.eu" method="POST" enctype="multipart/form-data" class="space-y-4">
-                <!-- Hidden Configuration for FormSubmit -->
                 <input type="hidden" name="_subject" value="New CV Submission - EuroAsia Manpower">
                 <input type="hidden" name="_captcha" value="false">
 
