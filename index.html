@@ -7,20 +7,22 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     
-    <!-- Google Translate Script Styling -->
+    <!-- Clean Dark Theme for Google Translate -->
     <style>
         .goog-te-banner-frame.skiptranslate { display: none !important; }
         body { top: 0px !important; }
         #google_translate_element select {
-            background-color: #1e293b;
+            background-color: #0f172a;
             color: #ffffff;
-            border: 1px solid #475569;
-            padding: 6px 10px;
+            border: 1px solid #334155;
+            padding: 6px 12px;
             border-radius: 6px;
-            font-size: 14px;
+            font-size: 13px;
             outline: none;
             cursor: pointer;
         }
+        .goog-logo-link, .goog-te-gadget span { display: none !important; }
+        .goog-te-gadget { color: transparent !important; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
@@ -30,7 +32,7 @@
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <h1 class="text-2xl font-bold tracking-wide text-blue-400">EuroAsia <span class="text-white">Manpower</span></h1>
             
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-3">
                 <!-- Multi-Language Selector Dropdown -->
                 <div id="google_translate_element" class="hidden md:inline-block"></div>
 
@@ -84,10 +86,10 @@
         <p class="text-center text-gray-500 mt-2 mb-12">Deployment-ready candidates with verified documentation.</p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Category 1 -->
+            <!-- Category 1 (Fixed Image) -->
             <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
                 <div class="h-40 bg-slate-200 overflow-hidden relative">
-                    <img src="https://images.unsplash.com/photo-1541888946425-d0fbb18f154d?auto=format&fit=crop&w=600&q=80" alt="General Helpers" class="w-full h-full object-cover">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="General Helpers" class="w-full h-full object-cover">
                 </div>
                 <div class="p-6">
                     <h3 class="font-bold text-lg text-slate-800">General Helpers</h3>
