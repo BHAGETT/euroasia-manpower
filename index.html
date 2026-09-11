@@ -50,42 +50,39 @@
         </div>
     </section>
 
-    <!-- Stats / Highlights -->
+    <!-- Stats / Highlights with Small Inline Video -->
     <section class="py-12 bg-white shadow-sm">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            
+            <!-- Column 1 -->
             <div class="p-4">
                 <i class="fas fa-passport text-3xl text-blue-600 mb-2"></i>
                 <h3 class="text-xl font-bold">100% Vetted Passports</h3>
                 <p class="text-gray-500 text-sm mt-1">Ready for active EU work permit allocations and quota processing.</p>
             </div>
-            <div class="p-4">
+
+            <!-- Column 2: Practical Demo Proofs with Small Video Inside -->
+            <div class="p-4 flex flex-col items-center">
                 <i class="fas fa-video text-3xl text-blue-600 mb-2"></i>
                 <h3 class="text-xl font-bold">Practical Demo Proofs</h3>
-                <p class="text-gray-500 text-sm mt-1">Video proofs of physical fitness and skill sets available on request.</p>
+                <p class="text-gray-500 text-sm mt-1 mb-3">Video proofs of physical fitness and skill sets available on request.</p>
+                
+                <!-- Choti Si 10-15 Second Video Player -->
+                <div class="w-full max-w-[260px] h-[150px] rounded-lg overflow-hidden shadow-md border border-gray-200 bg-black">
+                    <video autoplay muted loop playsinline class="w-full h-full object-cover">
+                        <source src="YOUR_DEMO_VIDEO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
+
+            <!-- Column 3 -->
             <div class="p-4">
                 <i class="fas fa-truck-loading text-3xl text-blue-600 mb-2"></i>
                 <h3 class="text-xl font-bold">Rapid Deployment</h3>
                 <p class="text-gray-500 text-sm mt-1">Streamlined B2B pipeline tailored for fast onboarding in Eastern EU markets.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- Interactive Demo Video Section Added Here -->
-    <section class="py-16 px-6 bg-slate-900 text-white">
-        <div class="max-w-4xl mx-auto text-center">
-            <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">Live Assessment</span>
-            <h2 class="text-3xl font-bold mt-2">Watch Worker Skill & Fitness Demo</h2>
-            <p class="text-gray-400 text-sm mt-2 mb-8">Sample assessment video showcasing practical capabilities before deployment.</p>
-            
-            <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-700 bg-black aspect-video flex items-center justify-center">
-                <!-- Aap yahan apna video link ya file laga sakte hain (e.g., HTML5 <video> tag ya YouTube/Vimeo iframe) -->
-                <video controls class="w-full h-full object-cover" poster="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80">
-                    <source src="YOUR_DEMO_VIDEO_URL.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <p class="text-xs text-gray-500 mt-3">Note: Replace <code class="text-blue-400">YOUR_DEMO_VIDEO_URL.mp4</code> with your actual hosted video file path or embed link.</p>
         </div>
     </section>
 
