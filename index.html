@@ -50,36 +50,46 @@
         </div>
     </section>
 
-    <!-- Stats / Highlights with Small Inline Video -->
+    <!-- Stats / Highlights with Professional Inline Video -->
     <section class="py-12 bg-white shadow-sm">
-        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center items-start">
             
             <!-- Column 1 -->
-            <div class="p-4">
-                <i class="fas fa-passport text-3xl text-blue-600 mb-2"></i>
-                <h3 class="text-xl font-bold">100% Vetted Passports</h3>
+            <div class="p-4 flex flex-col items-center">
+                <div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 mb-3 shadow-sm">
+                    <i class="fas fa-passport text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">100% Vetted Passports</h3>
                 <p class="text-gray-500 text-sm mt-1">Ready for active EU work permit allocations and quota processing.</p>
             </div>
 
-            <!-- Column 2: Practical Demo Proofs with Small Video Inside -->
-            <div class="p-4 flex flex-col items-center">
-                <i class="fas fa-video text-3xl text-blue-600 mb-2"></i>
-                <h3 class="text-xl font-bold">Practical Demo Proofs</h3>
-                <p class="text-gray-500 text-sm mt-1 mb-3">Video proofs of physical fitness and skill sets available on request.</p>
+            <!-- Column 2: Practical Demo Proofs with Working Video Preview -->
+            <div class="p-4 flex flex-col items-center bg-blue-50/50 rounded-2xl border border-blue-100 shadow-sm p-6">
+                <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mb-3 shadow-sm">
+                    <i class="fas fa-video text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Practical Demo Proofs</h3>
+                <p class="text-gray-500 text-sm mt-1 mb-4">Video proofs of physical fitness and skill sets available on request.</p>
                 
-                <!-- Choti Si 10-15 Second Video Player -->
-                <div class="w-full max-w-[260px] h-[150px] rounded-lg overflow-hidden shadow-md border border-gray-200 bg-black">
+                <!-- Professional Clean Video Container -->
+                <div class="w-full max-w-[280px] h-[160px] rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-slate-900 relative group">
                     <video autoplay muted loop playsinline class="w-full h-full object-cover">
-                        <source src="YOUR_DEMO_VIDEO.mp4" type="video/mp4">
+                        <!-- Working sample video link (Aap yahan apni apni 10-15 seconds ki video file ka link dal sakte hain) -->
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-construction-worker-working-on-a-building-41551-large.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
+                    <div class="absolute bottom-2 left-2 bg-black/60 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded font-medium">
+                        <i class="fas fa-play text-[8px] text-red-500 mr-1"></i> Live Demo Preview
+                    </div>
                 </div>
             </div>
 
             <!-- Column 3 -->
-            <div class="p-4">
-                <i class="fas fa-truck-loading text-3xl text-blue-600 mb-2"></i>
-                <h3 class="text-xl font-bold">Rapid Deployment</h3>
+            <div class="p-4 flex flex-col items-center">
+                <div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 mb-3 shadow-sm">
+                    <i class="fas fa-truck-loading text-xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Rapid Deployment</h3>
                 <p class="text-gray-500 text-sm mt-1">Streamlined B2B pipeline tailored for fast onboarding in Eastern EU markets.</p>
             </div>
 
