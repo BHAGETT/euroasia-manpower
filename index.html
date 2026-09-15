@@ -9,18 +9,18 @@
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-    <!-- Navigation -->
-    <nav class="bg-slate-900 text-white py-4 px-6 shadow-md sticky top-0 z-50">
+    <!-- Navigation (Clean & Minimal) -->
+    <nav class="bg-slate-900 text-white py-3 px-6 shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="flex items-center gap-2">
-                <img src="image.png" alt="EuroAsia Manpower Logo" class="h-9 w-9 object-contain rounded">
-                <h1 class="text-xl font-bold tracking-wide text-blue-400">EuroAsia <span class="text-white">Manpower</span></h1>
+                <img src="image.png" alt="EuroAsia Manpower Logo" class="h-8 w-8 object-contain rounded">
+                <h1 class="text-lg font-bold tracking-wide text-blue-400">EuroAsia <span class="text-white">Manpower</span></h1>
             </div>
             
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-2 md:gap-3">
                 <!-- Clean Custom Language Selector -->
                 <div class="relative">
-                    <select id="languageSelect" onchange="changeLanguage(this.value)" class="bg-slate-800 text-white border border-slate-700 px-3 py-2 rounded-lg text-sm font-semibold outline-none cursor-pointer hover:bg-slate-700 transition">
+                    <select id="languageSelect" onchange="changeLanguage(this.value)" class="bg-slate-800 text-white border border-slate-700 px-2 py-1.5 rounded-lg text-xs md:text-sm font-semibold outline-none cursor-pointer hover:bg-slate-700 transition">
                         <option value="en">🌐 English</option>
                         <option value="de">🇩🇪 Deutsch</option>
                         <option value="ro">🇷🇴 Română</option>
@@ -30,25 +30,25 @@
                     </select>
                 </div>
 
-                <a href="#upload-cv" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-lg font-semibold text-sm transition hidden sm:inline-block">
-                    <i class="fas fa-file-upload mr-2"></i>Upload CV
+                <a href="#upload-cv" class="bg-emerald-600 hover:bg-emerald-700 text-white px-3 py-1.5 rounded-lg font-semibold text-xs md:text-sm transition hidden sm:inline-block">
+                    <i class="fas fa-file-upload mr-1"></i>Upload CV
                 </a>
-                <a href="https://wa.me/491721885722" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold text-sm transition">
-                    <i class="fab font-bold fa-whatsapp mr-2"></i>Contact B2B Desk
+                <a href="https://wa.me/491721885722" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg font-semibold text-xs md:text-sm transition flex items-center gap-1">
+                    <i class="fab font-bold fa-whatsapp"></i> <span class="hidden sm:inline">B2B Desk</span>
                 </a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-slate-900 text-white py-20 px-6 border-b border-slate-800">
+    <section class="bg-slate-900 text-white py-16 px-6 border-b border-slate-800">
         <div class="max-w-5xl mx-auto text-center">
             <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">EU Compliant B2B Partner</span>
-            <h2 class="text-4xl md:text-5xl font-extrabold mt-4 leading-tight">Reliable Asian Manpower Supply for European Enterprises</h2>
-            <p class="text-gray-400 text-lg mt-4 max-w-3xl mx-auto">We connect construction, logistics, and industrial firms in Romania, Poland, Bulgaria, and Hungary with fully vetted, physically fit Asian general and skilled labor.</p>
+            <h2 class="text-3xl md:text-5xl font-extrabold mt-4 leading-tight">Reliable Asian Manpower Supply for European Enterprises</h2>
+            <p class="text-gray-400 text-base md:text-lg mt-4 max-w-3xl mx-auto">We connect construction, logistics, and industrial firms in Germany, Poland, Romania, Hungary, and Bulgaria with fully vetted, physically fit Asian general and skilled labor.</p>
             <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#services" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold text-center">Explore Workforce Categories</a>
-                <a href="#upload-cv" class="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-bold text-center">Candidates: Upload CV Here</a>
+                <a href="#services" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold text-center text-sm">Explore Workforce Categories</a>
+                <a href="#demo-videos" class="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white px-6 py-3 rounded-lg font-bold text-center text-sm">Watch Practical Demo Proofs</a>
             </div>
         </div>
     </section>
@@ -69,7 +69,62 @@
             <div class="p-4">
                 <i class="fas fa-truck-loading text-3xl text-blue-600 mb-2"></i>
                 <h3 class="text-xl font-bold">Rapid Deployment</h3>
-                <p class="text-gray-500 text-sm mt-1">Streamlined B2B pipeline tailored for fast onboarding in Eastern EU markets.</p>
+                <p class="text-gray-500 text-sm mt-1">Streamlined B2B pipeline tailored for fast onboarding in Eastern & Western EU markets.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practical Local Video Demos Section -->
+    <section id="demo-videos" class="py-16 px-6 bg-slate-100 border-t border-b border-gray-200">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">Operational Transparency</span>
+                <h2 class="text-3xl font-bold text-slate-900 mt-2">Practical Candidate & Facility Demo Proofs</h2>
+                <p class="text-gray-500 text-sm mt-2">Watch real-time workflow demonstrations of warehouse handling, logistics sorting, and operational readiness.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Video 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+                    <div class="relative bg-black h-48">
+                        <video class="w-full h-full object-cover" controls autoplay muted loop playsinline>
+                            <source src="demo1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-bold text-base text-slate-800">Warehouse & Forklift Operations</h3>
+                        <p class="text-gray-500 text-xs mt-1">Demonstration of structured warehouse fulfillment and inventory movement.</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+                    <div class="relative bg-black h-48">
+                        <video class="w-full h-full object-cover" controls autoplay muted loop playsinline>
+                            <source src="demo2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-bold text-base text-slate-800">Package Sorting & Fulfillment</h3>
+                        <p class="text-gray-500 text-xs mt-1">Physical handling and rapid packaging workflow execution by trained staff.</p>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+                    <div class="relative bg-black h-48">
+                        <video class="w-full h-full object-cover" controls autoplay muted loop playsinline>
+                            <source src="demo3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-bold text-base text-slate-800">Industrial Quality Control & Labor</h3>
+                        <p class="text-gray-500 text-xs mt-1">On-site supervision, physical fitness checks, and general industrial tasks.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -126,7 +181,7 @@
         </div>
     </section>
 
-    <!-- Built-in Secure CV Upload Section (No External Redirects) -->
+    <!-- Built-in Secure CV Upload Section -->
     <section id="upload-cv" class="py-16 px-6 bg-slate-100 border-t border-gray-200">
         <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-md border border-gray-200 p-8">
             <div class="text-center mb-6">
@@ -136,7 +191,6 @@
             </div>
 
             <form action="https://formsubmit.co/contact@euroasia-manpower.eu" method="POST" enctype="multipart/form-data" class="space-y-4">
-                <!-- Hidden Configuration for FormSubmit -->
                 <input type="hidden" name="_subject" value="New CV Submission - EuroAsia Manpower">
                 <input type="hidden" name="_captcha" value="false">
 
@@ -172,7 +226,7 @@
         </div>
     </section>
 
-    <!-- B2B Contact Section -->
+    <!-- B2B Contact Section (Updated with LinkedIn & WhatsApp) -->
     <section id="contact" class="bg-slate-900 text-white py-16 px-6">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl font-bold">Request Candidates & Allocation Details</h2>
@@ -190,13 +244,16 @@
                     </div>
                     <div>
                         <span class="text-xs text-gray-400 block uppercase font-semibold">Primary Target Markets</span>
-                        <span class="text-sm text-gray-300">Romania, Bulgaria, Poland, Hungary (B2B Subcontracting)</span>
+                        <span class="text-sm text-gray-300">Germany, Romania, Poland, Hungary, Bulgaria (B2B Subcontracting)</span>
                     </div>
                 </div>
                 
-                <div class="mt-6 pt-6 border-t border-slate-700 text-center">
-                    <a href="https://wa.me/491721885722" target="_blank" rel="noopener noreferrer" class="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-bold transition">
-                        Chat on WhatsApp Now
+                <div class="mt-6 pt-6 border-t border-slate-700 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <a href="https://wa.me/491721885722" target="_blank" rel="noopener noreferrer" class="w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-bold transition flex items-center justify-center gap-2 text-sm">
+                        <i class="fab fa-whatsapp text-lg"></i> WhatsApp Now
+                    </a>
+                    <a href="https://www.linkedin.com/in/euroasia-manpower-2b4012437/" target="_blank" rel="noopener noreferrer" class="w-full bg-blue-700 hover:bg-blue-800 text-white text-center py-3 rounded-lg font-bold transition flex items-center justify-center gap-2 text-sm">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn Profile
                     </a>
                 </div>
             </div>
