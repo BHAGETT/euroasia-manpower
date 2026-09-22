@@ -195,6 +195,7 @@
             <form action="https://formsubmit.co/contact@euroasia-manpower.eu" method="POST" class="space-y-4">
                 <input type="hidden" name="_subject" value="New B2B Employer Inquiry - EuroAsia Manpower">
                 <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
@@ -235,7 +236,7 @@
         </div>
     </section>
 
-    <!-- Built-in Secure CV Upload Section -->
+    <!-- Built-in Secure CV Upload Section (Updated with Email Field) -->
     <section id="upload-cv" class="py-16 px-6 bg-slate-100 border-t border-gray-200">
         <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-md border border-gray-200 p-8">
             <div class="text-center mb-6">
@@ -247,6 +248,7 @@
             <form action="https://formsubmit.co/contact@euroasia-manpower.eu" method="POST" enctype="multipart/form-data" class="space-y-4">
                 <input type="hidden" name="_subject" value="New CV Submission - EuroAsia Manpower">
                 <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
 
                 <div>
                     <label class="block text-sm font-semibold text-gray-700 mb-1">Full Name</label>
@@ -256,6 +258,12 @@
                 <div>
                     <label class="block text-sm font-semibold text-gray-700 mb-1">WhatsApp / Phone Number</label>
                     <input type="tel" name="Phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none text-sm" placeholder="+Code Your Phone Number">
+                </div>
+
+                <!-- ADDED: Candidate Email Field (Required) -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Email Address</label>
+                    <input type="email" name="Email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none text-sm" placeholder="candidate@email.com">
                 </div>
 
                 <div>
